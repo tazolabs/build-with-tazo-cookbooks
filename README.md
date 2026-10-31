@@ -20,5 +20,7 @@ export TAZO_API_KEY='your-key'
 ## Run a cookbook
 
 ```bash
-python speculative-tool-calling/speculative_tool_calling.py path/to/caller_recording.wav
+python speculative-tool-calling/speculative_tool_calling.py speculative-tool-calling/examples/caller_says_yes.wav
 ```
+
+Each cookbook folder has its own README with the example recordings and their expected output.
