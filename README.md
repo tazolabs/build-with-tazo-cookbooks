@@ -9,6 +9,7 @@ docs. Each cookbook is built on the [Tazo Python SDK](https://github.com/tazolab
 | Graph agents | [`graph-agents`](graph-agents) |
 | User profiling | [`user-profiling`](user-profiling) |
 | Post call analytics | [`post-call-analytics`](post-call-analytics) |
+| Home assistant | [`home-assistant`](home-assistant) |
 
 ## Setup
 
