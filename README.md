@@ -8,6 +8,7 @@ docs. Each cookbook is built on the [Tazo Python SDK](https://github.com/tazolab
 | Speculative tool calling | [`speculative-tool-calling`](speculative-tool-calling) |
 | Graph agents | [`graph-agents`](graph-agents) |
 | User profiling | [`user-profiling`](user-profiling) |
+| Post call analytics | [`post-call-analytics`](post-call-analytics) |
 
 ## Setup
 
