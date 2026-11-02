@@ -9,7 +9,7 @@ from tazo.types import ChoiceAnswer
 
 THRESHOLD = 0.8  # every answer must reach this confidence before a light changes
 TARGET_MODEL = "tazo-large"
-ACTION_MODEL = "tazo-small"
+ACTION_MODEL = "tazo-large"
 NO_TOOL = "NO_TOOL"
 NO_TOOL_DESCRIPTION = "No usable request."
 
