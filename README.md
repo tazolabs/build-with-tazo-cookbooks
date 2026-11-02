@@ -2,6 +2,7 @@
 
 Runnable backend scripts for the cookbooks in the **Build with Tazo** section of the Tazo
 docs. Each cookbook is built on the [Tazo Python SDK](https://github.com/tazolabs/tazo-sdk).
+All decision tasks use `tazo-large`.
 
 | Cookbook | Folder |
 | --- | --- |
@@ -10,6 +11,8 @@ docs. Each cookbook is built on the [Tazo Python SDK](https://github.com/tazolab
 | User profiling | [`user-profiling`](user-profiling) |
 | Post call analytics | [`post-call-analytics`](post-call-analytics) |
 | Home assistant | [`home-assistant`](home-assistant) |
+| Call Coach | [`call-coach-ai`](call-coach-ai) |
+| Personal Assistant for Mac | [`tazo-assistant`](tazo-assistant) |
 
 ## Setup
 
@@ -28,3 +31,11 @@ python speculative-tool-calling/speculative_tool_calling.py speculative-tool-cal
 ```
 
 Each cookbook folder has its own README with the example recordings and their expected output.
+
+## Verify the new backends
+
+The Call Coach and Personal Assistant for Mac routing and streaming checks run offline:
+
+```bash
+python -m unittest discover -s tests -v
+```

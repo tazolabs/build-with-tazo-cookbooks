@@ -1,1 +1,1 @@
-tazo-sdk
+tazo-sdk>=0.1.2

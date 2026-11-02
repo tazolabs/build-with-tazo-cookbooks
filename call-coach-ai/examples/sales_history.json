@@ -1,0 +1,10 @@
+[
+  {
+    "speaker": "rep",
+    "text": "Thanks for taking the call. What is your team trying to improve?"
+  },
+  {
+    "speaker": "customer",
+    "text": "We spend a lot of time on manual reporting. We are comparing tools to help our sales team."
+  }
+]
